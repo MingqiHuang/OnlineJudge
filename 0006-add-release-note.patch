@@ -1,0 +1,32 @@
+From 93d0ae38b14d86b65f0ea9fd25485395b4f2fb6d Mon Sep 17 00:00:00 2001
+From: virusdefender <virusdefender@outlook.com>
+Date: Wed, 28 Mar 2018 12:51:03 +0800
+Subject: [PATCH 6/8] add release note
+
+---
+ docs/data.json | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/docs/data.json b/docs/data.json
+index 6f507dc..2038a01 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,6 +1,15 @@
+ {
+   "update": [
+     {
++      "version": "2017-03-27",
++      "level": "Important",
++      "title": "Update at 2018-03-27",
++      "details": [
++        "<span style=\"color:  red;\">Fix some bugs about problem submission statistics</span>",
++        "Fix some bugs that may cause 'compile error' when submitted code contains unicode characters"
++      ]
++    },
++    {
+       "version": "2017-03-23",
+       "level": "Recommend",
+       "title": "Update at 2018-03-23",
+-- 
+2.10.0.windows.1
+

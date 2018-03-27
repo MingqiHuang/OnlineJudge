@@ -1,0 +1,8 @@
+diff a/submission/views/admin.py b/submission/views/admin.py	(rejected hunks)
+@@ -19,5 +19,5 @@ class SubmissionRejudgeAPI(APIView):
+         submission.statistic_info = {}
+         submission.save()
+ 
+-        judge_task.delay(submission.id, submission.problem.id, is_rejudge=True)
++        judge_task.delay(submission.id, submission.problem.id)
+         return self.success()
